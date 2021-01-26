@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+header{background-color: rgb(78, 136, 201);
+padding: 2rem;}
+
+li {list-style: none;}
+
+a {
+    color: white;
+    text-decoration:none; 
+    
+}
+
