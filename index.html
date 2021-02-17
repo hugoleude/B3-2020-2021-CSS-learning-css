@@ -1,49 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Your page title here :)</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/barebones.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/scaffolding.css">
-  <link rel="stylesheet" href="css/typo.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon-16.png">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>CSS | Hugo Leude</title>
 </head>
-<body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="grid-container halves">
-      <div>
-        <h1>The web Today Site</h1>
-          <a href="styleguide.html">Go and see the style Guide</a>
-          <a href="home.html">Site perso</a>
+<body>
+    <header>
+        <nav>
+            <ul>
+                
+                <li> <a href="index.html">Accueil</a></li>
+                <li> <a href="evolutions.html">Propriétés</a></li>
+                <li> <a href="perso.html">Personnalités</a></li>
+                <li> <a href="jen.html">J.Simmons</a></li>
+                <li> <a href="#">Mentions</a></li>
+                
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="pro">
+        <h1>Les propriétés CSS</h1>
+        <div class="css">
+        <h3>Media Queries</h3>
+        <p>Media queries est un module CSS3 permettant d'adapter le contenu d'une page web aux caractéristiques de l'appareil de l'utilisateur. De telles adaptations sont devenues une norme W3C recommandée en juin 2012. Il s'agit de la pierre angulaire des sites web adaptatifs.</p>
+        <button>En savoir plus</button>
+
+        <h3>Flexbox</h3>
+        <p>Les Flex Box CSS sont un standard CSS3 de disposition des éléments dans une page web. Ce standard permet d'avoir un design adaptatif à l'écran. Les éléments peuvent être réagencés selon la taille de l'écran. </button>
+            <button>En savoir plus</button>
+
+        <h3>Transforms</h3>
+        <p>La propriété transform s'avère un véritable couteau suisse en termes d'animation. En effet, elle dispose de plus de 20 fonctions différentes pour déplacer, faire pivoter, déformer et changer la taille des éléments..</p>
+        <button>En savoir plus</button>
+
+        <h3>CSS Gird Layout</h3>
+        <p>Dans les feuilles de style en cascade, la disposition de la grille CSS ou la grille CSS crée des dispositions de conception Web réactives complexes plus facilement et de manière cohérente dans les navigateurs.</p>
+        <button>En savoir plus</button>
+    </div>
+    </div>
+
+
+    <div class="jen">
+      <h1>Les personnalités</h1>
+
+      <div class="wrapper">
+        <div>
+            <img src="images/jen.jpg" alt="" height="300px" width="300px">
+            <h2>Jen simmons</h2>
+            <button><a href="jen.html">En savoir plus</a></button>
+        </div>
+        <div>
+            <img src="images/rachel.jpg" alt="" height="300px" width="300px">
+            <h2>Rachel Andrew</h2>
+            <button>En savoir plus</button>
+        </div>
+        <div>
+            <img src="images/lea.jpg" alt="" height="300px" width="300px">
+            <h2>Léa Verou</h2>
+            <button>En savoir plus</button>
+        </div>
+        <div>
+            <img src="images/val.jpg" alt="" height="300px" width="300px">
+            <h2>Vak Head</h2>
+            <button>En savoir plus</button>
+        </div>
+        <div>
+            <img src="images/sara.jpg" alt="" height="300px" width="300px">
+            <h2>Sara Soueidan</h2>
+            <button>En savoir plus</button>
+        </div>
+        <div>
+            <img src="images/ana.jpg" alt="" height="300px" width="300px">
+            <h2>Ana tudor</h2>
+            <button>En savoir plus</button>
+        </div>
+        <div>
+            <img src="images/alla.jpg" alt="" height="300px" width="300px">
+            <h2>Alla khomlatov</h2>
+            <button>En savoir plus</button>
+        </div>
+        <div>
+            <img src="images/chris.jpg" alt="" height="300px" width="300px">
+            <h2>Chris Coyier</h2>
+            <button>En savoir plus</button>
+        </div>
+        <div>
+            <img src="images/sarah.jpg" alt="" height="300px" width="300px">
+            <h2>Sarah Drasner</h2>
+            <button>En savoir plus</button>
+        </div>
+      
       </div>
     </div>
-  </div>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="zoom">
+       <h1>Un zoom sur... Jen Simmons </h1>
+       <div>
+        <img src="images/jen.jpg" alt="" height="300px" width="300px">
+        <p>Jen Simmons est une graphiste, développeur web, éducatrice et conférencière reconnue pour son expertise des standards web, en particulier HTML et CSS. Elle est membre du groupe de travail CSS créé par le World Wide Web Consortium et a joué un rôle de premier plan dans le déploiement de la disposition de grille CSS.</p> <br>
+        <button><a href="jen.html">Découvrir Jen Simmons</a></button>
+        
+      
+    </div>
+    </div>
+
+    
+    <div class="mentions">
+        Mentions 
+    </div>
+
+
+
+
+
+
 </body>
+
 </html>

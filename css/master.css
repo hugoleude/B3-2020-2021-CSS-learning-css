@@ -54,7 +54,7 @@ ul{
 
 .wrapper img {
     margin-left: 5.5em;
-    margin-top: 5vh;
+    margin-top: vh;
 }
 
 
@@ -156,7 +156,7 @@ img:hover {
 
 
 .presentation h1 {
-  margin-left: 35vw;
+
   margin-top: 3vh;
 }
 
@@ -189,7 +189,9 @@ p {
 
 
 h1 {
- color: rgb(78, 136, 201)
+ color: rgb(78, 136, 201);
+ margin-top: 1em;
+ margin-bottom: 1rem;
 }
 
 button {
@@ -197,12 +199,9 @@ button {
   color:white;
   border: none;
   padding: 10px;
+  margin-bottom: 1.5rem;
 }
 
-.zoom h1 {
-  text-align: center;
-
-}
 
 .zoom {
   margin-top: 50px;
@@ -212,3 +211,20 @@ button {
   margin-top: 10px;
 }
 
+
+
+.ressource-list {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+
+li {
+  display: inline-block;
+}
+
+
+.jen h1 {
+
+}
