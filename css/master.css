@@ -7,7 +7,7 @@
 
 header{background-color: rgb(78, 136, 201);
 padding: 2rem;
-word-spacing: 5rem;
+word-spacing: 0.5rem;
 position: sticky;
 top: 0;
 
@@ -160,9 +160,6 @@ img:hover {
   margin-top: 3vh;
 }
 
-p {
-  float: left;
-}
 
 .jen button {
   margin-left: 200px;
@@ -233,3 +230,21 @@ li {
 .navbar a {
   margin: 50px;
 }
+
+
+footer {
+  background-color: rgb(26, 26, 26);
+padding: 2rem;
+word-spacing: 0.5rem;
+position: sticky;
+top: 0;
+box-shadow: 0px 2px 5px rgb(155, 155, 155);
+}
+
+
+img.simmons {
+  margin-bottom: 1rem;
+}
+
+
+
